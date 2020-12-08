@@ -15,11 +15,14 @@ dogs = ["Cheyenne", "Bailey", "Zeke"]
 
 cats = ["Wiggles", "Kiwi", "Midnight"]
 
-cats.append(dogs)
-print(cats)
+print(dogs)
+
+dogs.append(cats)
+print(dogs)
 print(dogs[0])
 print(cats[1])
 
 dogs1 = {"first_dog": "Cheyenne", "second_cat": "Kiwi"}
 print(dogs1)
 print(dogs1.values())
+
