@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Author | Zakk
+
+"""
 ## create a dictionary
 switch = {"hostname": "sw1", "ip": "10.0.1.1", "version": "1.2", "vendor": "cisco"}
 
@@ -43,4 +47,3 @@ print( "Eighth test - ADD a new value" )
 switch["password"] = "qwerty"
 print( switch.keys() )
 print( switch.values() )
-

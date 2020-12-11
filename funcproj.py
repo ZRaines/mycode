@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 
+# Taking in a name as a parameter, and printing out the phrase "Hello <name>"
+
 def inputname(your_name):
     print(f"Hello {your_name}")
-def timeseleven(num):
-    print(f"The value returned is {num * 11}")
-def main():
-    firstname = input("What is your name?")
-    inputname(firstname)
-    value = input("Which number do you want to use?")
-    timeseleven(value)
-main()
+
+inputname('Zakk')
+inputname('Wade')
+
+# Taking in a number as a parameter, printing out that number * 11, and returning that value.
+
+def times_11(num):
+    product = num * 11
+    print(product)
+    return product
+times_11(3)
+times_11(6)
+my_num = int(input("What number should be multiplied by 11?"))
+times_11(my_num)
